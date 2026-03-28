@@ -4,7 +4,6 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/Dstaszak7/jenkins-c-test.git'
-    }
             }
         }
         stage('Build') {
