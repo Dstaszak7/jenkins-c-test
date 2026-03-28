@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat '"C:\\mingw64\\bin\\gcc.exe" bubble.c -o bubble.exe'
+                bat '"C:\\mingw64\\bin\\gcc.exe" bubble_sort.c -o bubble.exe'
             }
         }
         stage('Run') {
